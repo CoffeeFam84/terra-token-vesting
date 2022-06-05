@@ -2,7 +2,7 @@ use schemars::JsonSchema;
 use serde::{Deserialize, Serialize};
 
 use cosmwasm_std::CanonicalAddr;
-use cw_storage_plus::{Item, Map}
+use cw_storage_plus::{Item, Map};
 
 use crate::msg::Schedule;
 
